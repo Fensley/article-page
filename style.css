@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(161, 153, 138);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Roboto Mono", monospace;
+  width: 100%;
+  /* height: 100%; */
+}
+.container {
+  padding: 25px;
+  border-radius: 5px;
+  background-color: rgb(255, 251, 243);
+  border: 1px solid white;
+  height: 100%;
+  width: 100%;
+}
+.second-main {
+  height: 100%;
+  width: 100%;
+}
+.first-container {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 30px;
+}
+.second-container {
+  padding: 15px;
+  position: relative;
+  left: -13px;
+  display: flex;
+  gap: 2rem;
+}
+.border {
+  border-bottom: 0.1px solid;
+  width: 100%;
+  margin-top: 20px;
+  color: rgb(207, 201, 201);
+}
+.span-btn {
+  right: 50px;
+  position: absolute;
+  gap: 3%;
+}
+i {
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+}
+.span-btn button {
+  cursor: pointer;
+  border-radius: 10rem;
+}
+.third-container {
+  display: flex;
+}
+.first-img {
+  width: 90%;
+  height: 100%;
+}
+.Production-container {
+  /* border: 1px solid; */
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  background-size: cover;
+  margin-top: 20px;
+}
+.Production-container > h1 {
+  margin-bottom: 20px;
+}
+.Production-container > img {
+  margin-bottom: 15px;
+}
+.Production-container > h2 {
+  margin-bottom: 10px;
+}
+.Production-container > p {
+  margin-bottom: 29px;
+}
+.test-container {
+  display: flex;
+  /* flex-direction: row; */
+  display: block;
+}
+.fouth-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+.test {
+  display: flex;
+}
+.susie {
+  display: flex;
+}
+.first-tex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
+.Common {
+  margin-bottom: 20px;
+}
+.Recent {
+  margin-bottom: 14px;
+}
+.recent-img {
+  height: 130px;
+  width: 100px;
+  object-fit: cover;
+}
+.susie-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.susie p {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+.btn2 {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 30px;
+  width: 90px;
+}
+.btn1 {
+  background-color: transparent;
+  height: 30px;
+  width: 70px;
+  border: 1px solid gray;
+}
+img {
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
